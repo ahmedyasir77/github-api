@@ -44,8 +44,8 @@ my_layout = {
         },
     'yaxis': {
         'title': 'Stars',
-        'titlefont': {'size': 24},
-        'tickfont': {'size': 14},
+        'titlefont': {'size': 60},
+        'tickfont': {'size': 50},
         },
 }
 
