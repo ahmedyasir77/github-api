@@ -17,6 +17,7 @@ print(response_dict.keys())
 repo_dicts = response_dict['items']
 print(f"Repositories returned: {len(repo_dicts)}")
 
+
 # Examine the first repository. 
 repo_dict = repo_dicts[0]
 print(f"\nKeys: {len(repo_dict)}")
@@ -32,4 +33,6 @@ for repo in repo_dicts:
     print(f"Created: {repo_dict['created_at']}")
     print(f"Updated: {repo_dict['updated_at']}")
     print(f"Description: {repo_dict['description']}")
+
+
 
