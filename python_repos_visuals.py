@@ -43,13 +43,13 @@ my_layout = {
     'title': 'Most-Starred Python Projects on Github',
     'xaxis': {
         'title': 'Repository',
-        'titlefont': {'size': 24},
-        'tickfont': {'size': 14},
+        'titlefont': {'size': 26},
+        'tickfont': {'size': 18},
         },
     'yaxis': {
         'title': 'Stars',
-        'titlefont': {'size': 24},
-        'tickfont': {'size': 14},
+        'titlefont': {'size': 26},
+        'tickfont': {'size': 18},
         },
 }
 
